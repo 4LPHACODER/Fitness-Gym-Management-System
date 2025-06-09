@@ -4,6 +4,7 @@ from components.fields import CustomInputField
 from utils.colors import *
 from flet_core import colors
 from utils.validation import Validation
+from utils.navigation import navigate_to_signup
 
 class Login(ft.Container):
     def __init__(self, page: ft.Page):
@@ -20,7 +21,7 @@ class Login(ft.Container):
 
         # Go to signup
         def goto_signup(e):
-            page.go("/signup")
+            navigate_to_signup(page)
 
         # Error message container
         self.error_text = ft.Text(

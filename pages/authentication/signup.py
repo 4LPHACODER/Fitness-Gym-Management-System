@@ -6,6 +6,7 @@ from components.checkbox import CustomCheckbox
 from utils.colors import *
 from flet_core import colors
 from utils.validation import Validation
+from utils.navigation import navigate_to_login
 
 # Connect to MySQL
 conn = mysql.connector.connect(
@@ -30,7 +31,7 @@ class Signup(ft.Container):
         self.cursor = self.db.cursor()
 
         def goto_login(e):
-            page.go("/login")
+            navigate_to_login(page)
 
         self.expand = True
         self.alignment = ft.alignment.center
