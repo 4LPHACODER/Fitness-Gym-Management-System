@@ -1,6 +1,6 @@
-# Fitness Gym Management System (FGMS)
+# GymBro
 
-Fitness Gym Management System (FGMS) is a Python-based application built using Flet for managing gym operations efficiently. It provides features to handle client records, authentication, activity tracking, and event logging within a user-friendly interface.
+GymBro Fitness Gym Management System (FGMS) is a Python-based application built using Flet for managing gym operations efficiently. It provides features to handle client records, authentication, activity tracking, and event logging within a user-friendly interface.
 
 ## Features
 
